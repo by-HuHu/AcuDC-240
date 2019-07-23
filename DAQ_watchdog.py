@@ -35,7 +35,7 @@ while True:
 		tt = time.time() - t1
 		#print('Process lasts ', tt)
 		if alert in minutes:
-			subprocess.call('echo "Production Energy DAQ system. The systems did not aquired data for the last minute. You may want to check what was the cause." | mail -s "DAQ Acu Vesterinen" hugo.huerta@turkuamk.fi hehuertam@gmail.com ', shell=True)
+			subprocess.call('echo "Production Energy DAQ system. The systems did not aquired data for the last minute. You may want to check what was the cause." | mail -s "DAQ" ***@*** ***@*** ', shell=True)
 		time.sleep(60)
 	except:
 		pass
